@@ -1,40 +1,43 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人网站</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-        }
-        nav {
-            margin-bottom: 30px;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 10px;
-        }
-        nav a {
-            margin-right: 20px;
-            text-decoration: none;
-            color: #0366d6;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Professional Homepage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">首页</a>
-        <a href="about.html">自我介绍</a>
-        <a href="hobbies.html">兴趣爱好</a>
-        <a href="notes.html">笔记</a>
-    </nav>
-
-    <h1>👋 欢迎来到我的网站</h1>
-    <p>这是我的个人网站！</p>
+    <header>
+        <div class="hero">
+            <h1>Welcome to My Professional Homepage</h1>
+            <p>Your one-stop destination for my work and skills.</p>
+            <a href="#contact" class="cta">Get in Touch</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="featured-preview">
+            <h2>Featured Content</h2>
+            <div class="featured-item">
+                <h3>Blog Post Title</h3>
+                <p>Preview of the blog content goes here...</p>
+                <a href="#blog">Read More</a>
+            </div>
+            <div class="featured-item">
+                <h3>Project Title</h3>
+                <p>Preview of the project goes here...</p>
+                <a href="#projects">View Project</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 NinthEastwood. All rights reserved.</p>
+    </footer>
 </body>
 </html>
